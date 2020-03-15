@@ -1,0 +1,76 @@
+.App {
+  text-align: left;
+  margin-top: 10px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.header__logo {
+  display: inline;
+}
+.header__logo img {
+  height: 60px;
+}
+.todo__controls {
+  /* text-align: center; */
+  /* background-color: #fdf9b7; */
+  padding-top: 10px;
+  border-bottom: 1px solid #cccccc;
+}
+.todo__controls button {
+  margin-right: 15px;
+}
+.todo__item--slice {
+  height: 25px;
+  text-align: center;
+}
+.todo__item--complete {
+  text-decoration: line-through;
+  color: #999999;
+}
+.item__row {
+  padding: 8px 0 0 0;
+}
+.item-buttons button {
+  margin-right: 8px;
+}
+
+@media only screen and (max-width: 767px) {
+  .todo-button {
+    width: 100%;
+  }
+  .save-button__mobile {
+    margin-top: 10px;
+  }
+}
+
+.app-desc {
+  font-size: 14px;
+  font-style: italic;
+}
